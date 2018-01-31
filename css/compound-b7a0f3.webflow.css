@@ -565,6 +565,14 @@
   font-size: 10px;
 }
 
+.footer-interior {
+	display: flex;
+	justify-content: center;
+  max-width: 1740px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .social-media-div {
 	margin-bottom: 15px;
 }
