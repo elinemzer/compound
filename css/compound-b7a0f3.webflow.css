@@ -154,7 +154,7 @@
 
 .black-text {
   width: 370px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: Gilroy, sans-serif;
   color: #000;
   font-size: 24px;
@@ -202,6 +202,12 @@
 
 .small-text {
   width: 300px;
+}
+
+.superscript-text {
+  width: 300px;
+  font-size: 8px;
+  line-height: normal;
 }
 
 .brownstone-block-image {
@@ -470,6 +476,19 @@
   background-color: #f9f9f9;
 }
 
+.greenline-cell {
+  width: 100%;
+	max-width: 350px;
+	margin: 20px 0;
+}
+
+
+.greenline {
+	height: 15px;
+  width: 70%;
+	border-top: 5px solid #006565;
+}
+
 .image-container {
   width: 50%;
   height: 100%;
@@ -535,10 +554,26 @@
   flex: 1;
 }
 
+
+.footer-cell {
+	flex-basis: 25%;
+}
+
 .footer-text {
   width: 200px;
   font-family: Gilroy, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.social-media-div {
+	margin-bottom: 15px;
+}
+
+.social-media-container {
+	display: flex;
+	width: 158px;
+	height: 25px;
+	justify-content: space-between;
 }
 
 .how-it-works-image-container {
