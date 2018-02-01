@@ -182,6 +182,7 @@ img {
   color: #ceb47d;
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 25px;
 }
 
 .paragraph-2 {
@@ -193,7 +194,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 500px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -231,8 +232,7 @@ img {
 }
 
 .brownstone-block-image {
-  max-width: 100%;
-  margin-right: 5%;
+  width: 100%;
 }
 
 .blue-rectangle-section {
@@ -588,6 +588,7 @@ img {
   max-width: 1740px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 .social-media-div {
@@ -622,12 +623,10 @@ img {
   }
   .how-it-works-section {
     height: auto;
-  }
-  .blue-rectangle-section {
-    height: auto;
+    padding-bottom: 40px;
   }
   .blue-container-section {
-    height: auto;
+    height: 200px;
   }
   .why-invest-section {
     height: auto;
@@ -635,7 +634,9 @@ img {
   .second-cta-section {
     height: auto;
   }
-
+  .black-text {
+    margin-bottom: 15px;
+  }
   .cta-container {
     float: none;
     margin-right: 0;
@@ -645,6 +646,25 @@ img {
     padding-bottom: 10px;
     justify-content: center;
   }
+  .image-container-div {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  .how-it-works-image-container {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 30px;
+  }
   .flex-direction {
     flex-direction: column;
   }
@@ -652,13 +672,19 @@ img {
     width: 100%;
   }
   .cold-street-image {
-    width: 100%;
+    visibility: hidden;
   }
   .saras-aunt-image {
     width: 100%;
   }
   .brownstone-block-image {
     width: 100%;
+  }
+  .soho-image {
+    width: 100%;
+  }
+  .bed-image {
+    visibility: hidden;
   }
   .staircase-image {
     width: 100%;
@@ -676,9 +702,6 @@ img {
     border: 0;
     padding-bottom: 100px;
     justify-content: center;
-  }
-  .footer {
-    margin-left: 20px;
   }
 }
 
