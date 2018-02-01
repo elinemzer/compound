@@ -255,7 +255,7 @@ img {
   font-family: Gilroy, sans-serif;
 }
 
-.section-5 {
+.blue-container-section {
   height: 150px;
   background-color: #f9f9f9;
 }
@@ -389,13 +389,13 @@ img {
   margin-top: 0%;
 }
 
-.fire-escape-image {
+.cold-street-image {
   width: 50%;
   height: 95%;
   margin-top: 5%;
 }
 
-.div-block-2 {
+.double-image-container {
   width: 50%;
   height: 100%;
 }
@@ -608,16 +608,41 @@ img {
 }
 
 @media screen and (max-width: 640px){
+  .w-nav-brand {
+    margin-left: 25px;
+  }
   .main-header-section {
     height: auto;
   }
+  .saras-aunt-section {
+    height: auto;
+  }
+  .what-is-compound-section {
+    height: auto;
+  }
+  .how-it-works-section {
+    height: auto;
+  }
+  .blue-rectangle-section {
+    height: auto;
+  }
+  .blue-container-section {
+    height: auto;
+  }
+  .why-invest-section {
+    height: auto;
+  }
+  .second-cta-section {
+    height: auto;
+  }
+
   .cta-container {
     float: none;
     margin-right: 0;
     float: none;
     width: auto;
     border: 0;
-    border-bottom: 100px;
+    padding-bottom: 10px;
     justify-content: center;
   }
   .flex-direction {
@@ -625,6 +650,35 @@ img {
   }
   .girl-in-blue-image {
     width: 100%;
+  }
+  .cold-street-image {
+    width: 100%;
+  }
+  .saras-aunt-image {
+    width: 100%;
+  }
+  .brownstone-block-image {
+    width: 100%;
+  }
+  .staircase-image {
+    width: 100%;
+  }
+  .smiling-guy-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .double-image-container {
+    overflow:hidden;
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+  .footer {
+    margin-left: 20px;
   }
 }
 

@@ -1011,7 +1011,7 @@ textarea.w-select {
     position: static;
   }
   .w-nav-brand {
-    padding-left: 10px;
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1484,6 +1484,7 @@ textarea.w-select {
   float: left;
   text-decoration: none;
   color: #333333;
+  padding-left: 10px;
 }
 .w-nav-link {
   position: relative;
@@ -1588,7 +1589,7 @@ textarea.w-select {
     display: block;
   }
   .w-nav-brand {
-    padding-left: 10px;
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 479px) {
