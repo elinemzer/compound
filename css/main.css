@@ -1,3 +1,11 @@
+.* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 .header-nav {
   background-color: #1f2d4d;
 }
@@ -50,22 +58,6 @@
   font-family: Gilroy, sans-serif;
 }
 
-.main-heading {
-  width: 100%;
-  float: left;
-  font-family: 'Gilroy (1)', sans-serif;
-  color: #fff;
-  font-weight: 300;
-}
-
-.main-heading-bottom {
-  width: 80%;
-  float: left;
-  font-family: 'Gilroy (1)', sans-serif;
-  color: #fff;
-  font-weight: 300;
-}
-
 .cta-container {
   display: block;
   -webkit-box-pack: center;
@@ -81,8 +73,30 @@
   -ms-flex: 0 auto;
   flex: 0 auto;
   font-family: Gilroy, sans-serif;
-  padding-right: 6%;
+  padding-right: 8%;
+  margin-left: 8%;
 }
+
+.flex-direction {
+  flex-direction: row;
+}
+
+.main-heading {
+  width: 100%;
+  float: left;
+  font-family: 'Gilroy-Bold', sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.main-heading-bottom {
+  width: 80%;
+  float: left;
+  font-family: 'Gilroy-Bold', sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
 
 .paragraph {
   float: left;
@@ -109,11 +123,14 @@
   font-weight: 600;
 }
 
+.header-container {
+  width: 1340px;
+}
+
+
 .girl-in-blue-image {
-  width: 50%;
-  height: 100%;
   margin-top: 5%;
-  float: right;
+  width: 50%;
 }
 
 .div-block {
@@ -202,6 +219,9 @@
 
 .small-text {
   width: 300px;
+  font-family: Gilroy, sans-serif;
+  color: #000;
+  font-weight: 400;
 }
 
 .superscript-text {
@@ -211,8 +231,6 @@
 }
 
 .brownstone-block-image {
-  width: 45%;
-  height: 100%;
   max-width: 100%;
   margin-right: 5%;
 }
@@ -340,7 +358,7 @@
   height: 100px;
 }
 
-.image-2 {
+.bottom-logo {
   height: 100px;
 }
 
@@ -366,8 +384,7 @@
   flex: 0 auto;
 }
 
-.image-3 {
-  width: 45%;
+.smiling-guy-image {
   height: 100%;
   margin-top: 0%;
 }
@@ -433,7 +450,7 @@
 
 .image-container-div {
   display: block;
-  width: 45%;
+  width: 50%;
   height: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -521,8 +538,8 @@
 }
 
 .staircase-image {
-  width: 30%;
-  height: 75%;
+  width: 45%;
+  height: 73%;
   float: left;
   clear: left;
 }
@@ -590,21 +607,34 @@
   padding-top: 0px;
 }
 
+@media screen and (max-width: 640px){
+  .main-header-section {
+    height: auto;
+  }
+  .cta-container {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    border-bottom: 100px;
+    justify-content: center;
+  }
+  .flex-direction {
+    flex-direction: column;
+  }
+  .girl-in-blue-image {
+    width: 100%;
+  }
+}
+
 @media (max-width: 991px) {
   .saras-aunt-section {
     height: 400px;
   }
 }
 
-@media (max-width: 479px) {
-  .girl-in-blue-image {
-    position: static;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-  }
-}
+
 
 @font-face {
   font-family: 'Gilroy (1)';
