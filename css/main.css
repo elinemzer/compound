@@ -84,6 +84,7 @@ img {
   font-family: Gilroy, sans-serif;
   padding-right: 8%;
   margin-left: 8%;
+  height: 100%;
 }
 
 .flex-direction {
@@ -96,6 +97,7 @@ img {
   font-family: 'Gilroy-Bold', sans-serif;
   color: #fff;
   font-weight: 700;
+  margin-top: 50px;
 }
 
 .main-heading-bottom {
@@ -329,7 +331,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 550px;
+  height: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -617,16 +619,43 @@ img {
   padding-top: 0px;
 }
 
+
+
 @media screen and (max-width: 640px){
-  .w-nav-brand {
-    margin-left: 25px;
-  }
   .main-header-section {
     height: auto;
   }
   .saras-aunt-section {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: auto;
   }
+
+  .saras-aunt-section .double-image-container {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .saras-aunt-section .text-container {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    margin-top: 30px;
+  }
+
   .what-is-compound-section {
     height: auto;
   }
@@ -646,7 +675,7 @@ img {
   .black-text {
     margin-bottom: 15px;
   }
-  .cta-container {
+  .cta-container .text-container {
     float: none;
     margin-right: 0;
     float: none;
@@ -680,11 +709,17 @@ img {
   .girl-in-blue-image {
     width: 100%;
   }
-  .cold-street-image {
-    visibility: hidden;
-  }
-  .saras-aunt-image {
+
+  .double-image-container {
+    overflow:hidden;
+    float: none;
+    margin-right: 0;
+    float: none;
     width: 100%;
+    min-height: 100%;
+    border: 0;
+    padding-bottom: 100px;
+    justify-content: center;
   }
   .brownstone-block-image {
     width: 100%;
@@ -698,30 +733,21 @@ img {
   }
   .staircase-image {
     width: 100%;
+    overflow: hidden;
   }
   .smiling-guy-image {
     width: 100%;
     margin-top: 30px;
   }
-  .double-image-container {
-    overflow:hidden;
-    float: none;
-    margin-right: 0;
-    float: none;
-    width: auto;
-    border: 0;
-    padding-bottom: 100px;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 991px) {
-  .saras-aunt-section {
-    height: 400px;
-  }
   .why-invest-section {
     flex-direction: column;
     height: auto;
+  }
+  .image-container-div {
+    width: 100%;
   }
 }
 
