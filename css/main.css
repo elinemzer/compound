@@ -8,6 +8,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -147,8 +148,8 @@ img {
 
 
 .girl-in-blue-image {
-  margin-top: 5%;
-  width: 50%;
+  margin-top: 8%;
+  width: 100%;
 }
 
 .div-block {
@@ -378,6 +379,7 @@ img {
 
 .bottom-logo {
   height: 100px;
+  margin-left: 50px;
 }
 
 .column {
@@ -628,7 +630,7 @@ img {
 
 
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 375px){
   body {
     width: 100%;
     height: 100vh;
@@ -676,6 +678,7 @@ img {
 
   .what-is-compound-section {
     height: auto;
+    margin-top: 300px;
   }
   .how-it-works-section {
     height: auto;
@@ -760,11 +763,8 @@ img {
     width: 100%;
     overflow: hidden;
   }
-  .section-divider {
-    margin-bottom: -300px;
-  }
   .second-cta-container {
-    margin-top: 280px;
+    margin-top: 380px;
   }
   .smiling-guy-image {
     width: 100%;
@@ -778,9 +778,176 @@ img {
   }
 }
 
+@media screen and (max-width: 1050px){
+  .main-header-section{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: auto;
+ }
+}
+@media screen and (max-width: 779px){
+  body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .main-header-section {
+    width: 100%;
+  }
+  .saras-aunt-section {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .saras-aunt-section .double-image-container {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .saras-aunt-section .text-container {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    margin-top: 30px;
+  }
+
+  .what-is-compound-section {
+    height: auto;
+  }
+  .how-it-works-section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .blue-container-section {
+    height: 200px;
+  }
+  .second-cta-section {
+    height: auto;
+  }
+  .black-text {
+    margin-bottom: 15px;
+  }
+  .top-logo {
+    margin-top: 80px;
+  }
+  .main-heading {
+    margin-top: -30px;
+  }
+  .cta-container .text-container {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  .image-container-div {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  .how-it-works-image-container {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: auto;
+    border: 0;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  .flex-direction {
+    flex-direction: column;
+  }
+  .girl-in-blue-image {
+    height: 100%;
+    width: 100%;
+  }
+
+  .double-image-container {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: 100%;
+    min-height: 100%;
+    border: 0;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+  .brownstone-block-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .soho-image {
+    visibility: hidden;
+  }
+  .bed-image {
+    visibility: hidden;
+  }
+  .staircase-image {
+    width: 100%;
+    overflow: hidden;
+  }
+  .section-divider {
+    margin-bottom: -300px;
+  }
+  .smiling-guy-image {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .second-cta-section {
+    margin-top: 250px;
+  }
+  .bottom-logo {
+    margin-left: auto;
+  }
+  body {
+    background-color: #f9f9f9;
+  }
+}
+
 @media (max-width: 991px) {
   body {
     background-color: #f9f9f9;
+  }
+  .cta-container .text-container {
+    float: none;
+    margin-right: 0;
+    float: none;
+    width: 100%;
+    border: 0;
+    padding-bottom: 10px;
+    justify-content: center;
   }
   .why-invest-section {
     flex-direction: column;
@@ -789,15 +956,21 @@ img {
   .what-is-compound-section {
     flex-direction: column;
     height: auto;
-    margin-top: 300px;
+  }
+  .what-is-text {
+    margin-bottom: 50px;
   }
   .second-cta-section {
-    flex-direction: column;
     height: auto;
-    margin-top: 300px;
+  }
+  .smiling-guy-image {
+    width: 100%;
   }
   .image-container-div {
     width: 100%;
+  }
+  .bottom-logo {
+    margin-left: auto;
   }
 }
 
