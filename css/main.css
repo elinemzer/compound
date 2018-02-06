@@ -628,7 +628,24 @@ img {
   padding-top: 0px;
 }
 
+.terms-container {
+  padding: 30px;
+  background-color: #f9f9f9
+}
 
+.terms-bodytext {
+  margin-top: 20px;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.terms-header {
+  font-size: 24px;
+  font-family: Gilroy-Bold;
+  font-weight: 600;
+  justify-content: center;
+}
 
 @media screen and (max-width: 375px){
   body {
@@ -640,10 +657,8 @@ img {
     overflow-x: hidden;
   }
   .main-header-section {
-    height: 400px;
-    margin-bottom: 150px;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 250px;
   }
   .saras-aunt-section {
     display: -webkit-box;
@@ -658,7 +673,6 @@ img {
     flex-direction: column;
     height: auto;
   }
-
   .saras-aunt-section .double-image-container {
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
@@ -763,6 +777,9 @@ img {
     width: 100%;
     overflow: hidden;
   }
+  .superscript-text {
+    margin-bottom: -65px;
+  }
   .second-cta-container {
     margin-top: 380px;
   }
@@ -778,21 +795,6 @@ img {
   }
 }
 
-@media screen and (max-width: 1050px){
-  .main-header-section{
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: auto;
- }
-}
 @media screen and (max-width: 779px){
   body {
     width: 100%;
@@ -974,23 +976,20 @@ img {
   }
 }
 
-.terms-container {
-  padding: 30px;
-  background-color: #f9f9f9
-}
-
-.terms-bodytext {
-  margin-top: 20px;
-  font-family: Gilroy;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.terms-header {
-  font-size: 24px;
-  font-family: Gilroy-Bold;
-  font-weight: 600;
-  justify-content: center;
+@media screen and (max-width: 1050px){
+  .main-header-section{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: auto;
+ }
 }
 
 
