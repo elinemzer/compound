@@ -654,7 +654,6 @@ img {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
   }
   .main-header-section {
     width: 100%;
@@ -713,6 +712,7 @@ img {
   }
   .top-logo {
     margin-top: 80px;
+    height: 100px;
   }
   .main-heading {
     margin-top: -30px;
@@ -781,7 +781,7 @@ img {
     margin-bottom: -65px;
   }
   .second-cta-container {
-    margin-top: 380px;
+    margin-top: 360px;
   }
   .smiling-guy-image {
     width: 100%;
